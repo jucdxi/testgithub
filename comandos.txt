@@ -1,0 +1,24 @@
+cirar chave de conexção do github com o pc(fazer isso para cada terminal)
+no teminal digite
+ssh-keygen -t rsa -b 4096 -C "ju.cdxi@gmail.com"
+enter
+enter
+enter
+
+pegar a chave
+se não der certo vai na pasta .ssh abra o arquivo com a chave pub e copie
+cole no ssh no github
+
+
+add o ssh
+
+eval `ssh-agent -s
+
+ssh-add ~/.ssh/id_rsa
+
+
+
+================================================
+
+git clone <o ssh do repositório que deseja clonar>
+
